@@ -1,17 +1,10 @@
 # VASR-Net
 
-Source code for the VASR-Net 3-D segmentation network and its nnU-Net
-inference entry point. Dataset files and model weights are intentionally not
-included.
-
 ## Install
 
 ```bash
 python -m pip install -r vasrnet_release/requirements.txt
 ```
-
-Run commands from this directory so the local architecture package is on
-`PYTHONPATH`.
 
 ## Inference
 
@@ -38,5 +31,4 @@ bash vasrnet_release/scripts/predict.sh \
 Use `--device cpu` for CPU inference, `--disable-tta` to disable mirroring,
 and `--save-probabilities` to export probability maps.
 
-The main class is defined in
-`dynamic_network_architectures_compare/architectures/vasr_net.py`.
+The data from the First Affiliated Hospital of Nanchang University in the paper cannot be disclosed due to privacy concerns. However, we have prepared a subset of this data that can be used for testing. To obtain this data, please contact the author of the paper.
